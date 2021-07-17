@@ -1,10 +1,7 @@
 .listItem {
-  /* background-color: green; */
-  /* text-align: center; */
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
-  /* border: 2px solid red; */
   background-color: rgb(44, 183, 238);
   color: white;
   border-radius: 4px;
@@ -14,9 +11,7 @@
 
 .itemText {
   margin: 0;
-  /* display: inline-block; */
   max-width: 400px;
-  /* text-align: center; */
   font-size: 18px;
   font-weight: 600;
 }
@@ -30,8 +25,6 @@
   border-radius: 4px;
   border: none;
   cursor: pointer;
-  /* margin-left: auto;
-  margin-right: auto; */
 }
 
 .deleteBtn:hover {

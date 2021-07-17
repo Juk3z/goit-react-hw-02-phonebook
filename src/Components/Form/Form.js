@@ -31,7 +31,7 @@ class Form extends Component {
     const inputNumber = shortid.generate();
 
     return (
-      <form className={styles.contactForm} onSubmit={this.submitHanlder}>
+      <form onSubmit={this.submitHanlder}>
         <label className={styles.formLabel} htmlFor={inputName}>
           Name
           <input
